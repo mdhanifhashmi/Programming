@@ -1,0 +1,21 @@
+package javabean;
+
+import java.util.Scanner;
+
+public class PersonMainClass {
+
+	public static void main(String[] args) {
+		Person p = new Person();
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter the age");
+		int a = scan.nextInt();
+		
+		p.setAge(a);
+		
+		System.out.println(p.getAge());
+		
+	}
+	
+
+}
